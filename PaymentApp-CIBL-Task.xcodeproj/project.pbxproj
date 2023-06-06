@@ -7,68 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE3D80582A2FB70700933ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D80572A2FB70700933ED8 /* AppDelegate.swift */; };
-		CE3D805A2A2FB70700933ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D80592A2FB70700933ED8 /* SceneDelegate.swift */; };
-		CE3D805C2A2FB70700933ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D805B2A2FB70700933ED8 /* ViewController.swift */; };
-		CE3D805F2A2FB70700933ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3D805D2A2FB70700933ED8 /* Main.storyboard */; };
-		CE3D80622A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE3D80602A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld */; };
-		CE3D80642A2FB70900933ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3D80632A2FB70900933ED8 /* Assets.xcassets */; };
-		CE3D80672A2FB70900933ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3D80652A2FB70900933ED8 /* LaunchScreen.storyboard */; };
-		CE3D80722A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D80712A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift */; };
-		CE3D807C2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D807B2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift */; };
-		CE3D807E2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D807D2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift */; };
+		CE7419F12A2F18F400D84E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7419F02A2F18F400D84E0C /* AppDelegate.swift */; };
+		CE7419F32A2F18F400D84E0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7419F22A2F18F400D84E0C /* SceneDelegate.swift */; };
+		CE7419F52A2F18F400D84E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7419F42A2F18F400D84E0C /* ViewController.swift */; };
+		CE7419F82A2F18F400D84E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7419F62A2F18F400D84E0C /* Main.storyboard */; };
+		CE7419FB2A2F18F400D84E0C /* PaymentApp_CIBL_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE7419F92A2F18F400D84E0C /* PaymentApp_CIBL_Task.xcdatamodeld */; };
+		CE7419FD2A2F18F700D84E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7419FC2A2F18F700D84E0C /* Assets.xcassets */; };
+		CE741A002A2F18F700D84E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7419FE2A2F18F700D84E0C /* LaunchScreen.storyboard */; };
+		CE741A0B2A2F18F800D84E0C /* PaymentApp_CIBL_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE741A0A2A2F18F800D84E0C /* PaymentApp_CIBL_TaskTests.swift */; };
+		CE741A152A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE741A142A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITests.swift */; };
+		CE741A172A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE741A162A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift */; };
+		CE741A292A2F237800D84E0C /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE741A282A2F237800D84E0C /* Payment.storyboard */; };
+		CE741A2B2A2F238E00D84E0C /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE741A2A2A2F238E00D84E0C /* PaymentViewController.swift */; };
+		CEA4419C2A2F3833008FFEEE /* PaymentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4419B2A2F3833008FFEEE /* PaymentInfo.swift */; };
+		CEA4419F2A2F3A28008FFEEE /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4419E2A2F3A28008FFEEE /* PDFGenerator.swift */; };
+		CEA441A32A2F4AAC008FFEEE /* PaymentReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA441A12A2F4AAC008FFEEE /* PaymentReceiptViewController.swift */; };
+		CEA441A42A2F4AAC008FFEEE /* PaymentReceptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA441A22A2F4AAC008FFEEE /* PaymentReceptViewController.xib */; };
+		CEA441A62A2F8316008FFEEE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA441A52A2F8316008FFEEE /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE3D806E2A2FB70A00933ED8 /* PBXContainerItemProxy */ = {
+		CE741A072A2F18F800D84E0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE3D804C2A2FB70700933ED8 /* Project object */;
+			containerPortal = CE7419E52A2F18F400D84E0C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE3D80532A2FB70700933ED8;
+			remoteGlobalIDString = CE7419EC2A2F18F400D84E0C;
 			remoteInfo = "PaymentApp-CIBL-Task";
 		};
-		CE3D80782A2FB70A00933ED8 /* PBXContainerItemProxy */ = {
+		CE741A112A2F18F800D84E0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE3D804C2A2FB70700933ED8 /* Project object */;
+			containerPortal = CE7419E52A2F18F400D84E0C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE3D80532A2FB70700933ED8;
+			remoteGlobalIDString = CE7419EC2A2F18F400D84E0C;
 			remoteInfo = "PaymentApp-CIBL-Task";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE3D80542A2FB70700933ED8 /* PaymentApp-CIBL-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PaymentApp-CIBL-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3D80572A2FB70700933ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE3D80592A2FB70700933ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE3D805B2A2FB70700933ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE3D805E2A2FB70700933ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE3D80612A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaymentApp_CIBL_Task.xcdatamodel; sourceTree = "<group>"; };
-		CE3D80632A2FB70900933ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE3D80662A2FB70900933ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE3D80682A2FB70900933ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE3D806D2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PaymentApp-CIBL-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3D80712A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentApp_CIBL_TaskTests.swift; sourceTree = "<group>"; };
-		CE3D80772A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PaymentApp-CIBL-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3D807B2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentApp_CIBL_TaskUITests.swift; sourceTree = "<group>"; };
-		CE3D807D2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentApp_CIBL_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE7419ED2A2F18F400D84E0C /* PaymentApp-CIBL-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PaymentApp-CIBL-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7419F02A2F18F400D84E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE7419F22A2F18F400D84E0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE7419F42A2F18F400D84E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE7419F72A2F18F400D84E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE7419FA2A2F18F400D84E0C /* PaymentApp_CIBL_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaymentApp_CIBL_Task.xcdatamodel; sourceTree = "<group>"; };
+		CE7419FC2A2F18F700D84E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7419FF2A2F18F700D84E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE741A012A2F18F700D84E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE741A062A2F18F800D84E0C /* PaymentApp-CIBL-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PaymentApp-CIBL-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE741A0A2A2F18F800D84E0C /* PaymentApp_CIBL_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentApp_CIBL_TaskTests.swift; sourceTree = "<group>"; };
+		CE741A102A2F18F800D84E0C /* PaymentApp-CIBL-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PaymentApp-CIBL-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE741A142A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentApp_CIBL_TaskUITests.swift; sourceTree = "<group>"; };
+		CE741A162A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentApp_CIBL_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE741A282A2F237800D84E0C /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		CE741A2A2A2F238E00D84E0C /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		CEA4419B2A2F3833008FFEEE /* PaymentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfo.swift; sourceTree = "<group>"; };
+		CEA4419E2A2F3A28008FFEEE /* PDFGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGenerator.swift; sourceTree = "<group>"; };
+		CEA441A12A2F4AAC008FFEEE /* PaymentReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentReceiptViewController.swift; sourceTree = "<group>"; };
+		CEA441A22A2F4AAC008FFEEE /* PaymentReceptViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentReceptViewController.xib; sourceTree = "<group>"; };
+		CEA441A52A2F8316008FFEEE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE3D80512A2FB70700933ED8 /* Frameworks */ = {
+		CE7419EA2A2F18F400D84E0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3D806A2A2FB70A00933ED8 /* Frameworks */ = {
+		CE741A032A2F18F800D84E0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3D80742A2FB70A00933ED8 /* Frameworks */ = {
+		CE741A0D2A2F18F800D84E0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,68 +92,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE3D804B2A2FB70700933ED8 = {
+		CE7419E42A2F18F400D84E0C = {
 			isa = PBXGroup;
 			children = (
-				CE3D80562A2FB70700933ED8 /* PaymentApp-CIBL-Task */,
-				CE3D80702A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests */,
-				CE3D807A2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests */,
-				CE3D80552A2FB70700933ED8 /* Products */,
+				CE7419EF2A2F18F400D84E0C /* PaymentApp-CIBL-Task */,
+				CE741A092A2F18F800D84E0C /* PaymentApp-CIBL-TaskTests */,
+				CE741A132A2F18F800D84E0C /* PaymentApp-CIBL-TaskUITests */,
+				CE7419EE2A2F18F400D84E0C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE3D80552A2FB70700933ED8 /* Products */ = {
+		CE7419EE2A2F18F400D84E0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE3D80542A2FB70700933ED8 /* PaymentApp-CIBL-Task.app */,
-				CE3D806D2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests.xctest */,
-				CE3D80772A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests.xctest */,
+				CE7419ED2A2F18F400D84E0C /* PaymentApp-CIBL-Task.app */,
+				CE741A062A2F18F800D84E0C /* PaymentApp-CIBL-TaskTests.xctest */,
+				CE741A102A2F18F800D84E0C /* PaymentApp-CIBL-TaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE3D80562A2FB70700933ED8 /* PaymentApp-CIBL-Task */ = {
+		CE7419EF2A2F18F400D84E0C /* PaymentApp-CIBL-Task */ = {
 			isa = PBXGroup;
 			children = (
-				CE3D80572A2FB70700933ED8 /* AppDelegate.swift */,
-				CE3D80592A2FB70700933ED8 /* SceneDelegate.swift */,
-				CE3D805B2A2FB70700933ED8 /* ViewController.swift */,
-				CE3D805D2A2FB70700933ED8 /* Main.storyboard */,
-				CE3D80632A2FB70900933ED8 /* Assets.xcassets */,
-				CE3D80652A2FB70900933ED8 /* LaunchScreen.storyboard */,
-				CE3D80682A2FB70900933ED8 /* Info.plist */,
-				CE3D80602A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld */,
+				CEA4419D2A2F3A1C008FFEEE /* Helper */,
+				CEA4419A2A2F3813008FFEEE /* Model */,
+				CE741A262A2F231E00D84E0C /* Controller */,
+				CE7419F62A2F18F400D84E0C /* Main.storyboard */,
+				CE7419F42A2F18F400D84E0C /* ViewController.swift */,
+				CE741A252A2F230E00D84E0C /* System */,
+				CE7419FE2A2F18F700D84E0C /* LaunchScreen.storyboard */,
+				CE741A012A2F18F700D84E0C /* Info.plist */,
+				CE7419FC2A2F18F700D84E0C /* Assets.xcassets */,
+				CE7419F92A2F18F400D84E0C /* PaymentApp_CIBL_Task.xcdatamodeld */,
 			);
 			path = "PaymentApp-CIBL-Task";
 			sourceTree = "<group>";
 		};
-		CE3D80702A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests */ = {
+		CE741A092A2F18F800D84E0C /* PaymentApp-CIBL-TaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE3D80712A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift */,
+				CE741A0A2A2F18F800D84E0C /* PaymentApp_CIBL_TaskTests.swift */,
 			);
 			path = "PaymentApp-CIBL-TaskTests";
 			sourceTree = "<group>";
 		};
-		CE3D807A2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests */ = {
+		CE741A132A2F18F800D84E0C /* PaymentApp-CIBL-TaskUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CE3D807B2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift */,
-				CE3D807D2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift */,
+				CE741A142A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITests.swift */,
+				CE741A162A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift */,
 			);
 			path = "PaymentApp-CIBL-TaskUITests";
+			sourceTree = "<group>";
+		};
+		CE741A252A2F230E00D84E0C /* System */ = {
+			isa = PBXGroup;
+			children = (
+				CE7419F22A2F18F400D84E0C /* SceneDelegate.swift */,
+				CE7419F02A2F18F400D84E0C /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		CE741A262A2F231E00D84E0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEA441A02A2F4A7F008FFEEE /* PaymentReceptDialogVC */,
+				CE741A272A2F233F00D84E0C /* PaymentVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE741A272A2F233F00D84E0C /* PaymentVC */ = {
+			isa = PBXGroup;
+			children = (
+				CE741A282A2F237800D84E0C /* Payment.storyboard */,
+				CE741A2A2A2F238E00D84E0C /* PaymentViewController.swift */,
+			);
+			path = PaymentVC;
+			sourceTree = "<group>";
+		};
+		CEA4419A2A2F3813008FFEEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4419B2A2F3833008FFEEE /* PaymentInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEA4419D2A2F3A1C008FFEEE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4419E2A2F3A28008FFEEE /* PDFGenerator.swift */,
+				CEA441A52A2F8316008FFEEE /* Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CEA441A02A2F4A7F008FFEEE /* PaymentReceptDialogVC */ = {
+			isa = PBXGroup;
+			children = (
+				CEA441A12A2F4AAC008FFEEE /* PaymentReceiptViewController.swift */,
+				CEA441A22A2F4AAC008FFEEE /* PaymentReceptViewController.xib */,
+			);
+			path = PaymentReceptDialogVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE3D80532A2FB70700933ED8 /* PaymentApp-CIBL-Task */ = {
+		CE7419EC2A2F18F400D84E0C /* PaymentApp-CIBL-Task */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE3D80812A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-Task" */;
+			buildConfigurationList = CE741A1A2A2F18F800D84E0C /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-Task" */;
 			buildPhases = (
-				CE3D80502A2FB70700933ED8 /* Sources */,
-				CE3D80512A2FB70700933ED8 /* Frameworks */,
-				CE3D80522A2FB70700933ED8 /* Resources */,
+				CE7419E92A2F18F400D84E0C /* Sources */,
+				CE7419EA2A2F18F400D84E0C /* Frameworks */,
+				CE7419EB2A2F18F400D84E0C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,69 +216,69 @@
 			);
 			name = "PaymentApp-CIBL-Task";
 			productName = "PaymentApp-CIBL-Task";
-			productReference = CE3D80542A2FB70700933ED8 /* PaymentApp-CIBL-Task.app */;
+			productReference = CE7419ED2A2F18F400D84E0C /* PaymentApp-CIBL-Task.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE3D806C2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests */ = {
+		CE741A052A2F18F800D84E0C /* PaymentApp-CIBL-TaskTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE3D80842A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskTests" */;
+			buildConfigurationList = CE741A1D2A2F18F800D84E0C /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskTests" */;
 			buildPhases = (
-				CE3D80692A2FB70A00933ED8 /* Sources */,
-				CE3D806A2A2FB70A00933ED8 /* Frameworks */,
-				CE3D806B2A2FB70A00933ED8 /* Resources */,
+				CE741A022A2F18F800D84E0C /* Sources */,
+				CE741A032A2F18F800D84E0C /* Frameworks */,
+				CE741A042A2F18F800D84E0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE3D806F2A2FB70A00933ED8 /* PBXTargetDependency */,
+				CE741A082A2F18F800D84E0C /* PBXTargetDependency */,
 			);
 			name = "PaymentApp-CIBL-TaskTests";
 			productName = "PaymentApp-CIBL-TaskTests";
-			productReference = CE3D806D2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests.xctest */;
+			productReference = CE741A062A2F18F800D84E0C /* PaymentApp-CIBL-TaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE3D80762A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests */ = {
+		CE741A0F2A2F18F800D84E0C /* PaymentApp-CIBL-TaskUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE3D80872A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskUITests" */;
+			buildConfigurationList = CE741A202A2F18F800D84E0C /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskUITests" */;
 			buildPhases = (
-				CE3D80732A2FB70A00933ED8 /* Sources */,
-				CE3D80742A2FB70A00933ED8 /* Frameworks */,
-				CE3D80752A2FB70A00933ED8 /* Resources */,
+				CE741A0C2A2F18F800D84E0C /* Sources */,
+				CE741A0D2A2F18F800D84E0C /* Frameworks */,
+				CE741A0E2A2F18F800D84E0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE3D80792A2FB70A00933ED8 /* PBXTargetDependency */,
+				CE741A122A2F18F800D84E0C /* PBXTargetDependency */,
 			);
 			name = "PaymentApp-CIBL-TaskUITests";
 			productName = "PaymentApp-CIBL-TaskUITests";
-			productReference = CE3D80772A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests.xctest */;
+			productReference = CE741A102A2F18F800D84E0C /* PaymentApp-CIBL-TaskUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE3D804C2A2FB70700933ED8 /* Project object */ = {
+		CE7419E52A2F18F400D84E0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					CE3D80532A2FB70700933ED8 = {
+					CE7419EC2A2F18F400D84E0C = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					CE3D806C2A2FB70A00933ED8 = {
+					CE741A052A2F18F800D84E0C = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = CE3D80532A2FB70700933ED8;
+						TestTargetID = CE7419EC2A2F18F400D84E0C;
 					};
-					CE3D80762A2FB70A00933ED8 = {
+					CE741A0F2A2F18F800D84E0C = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = CE3D80532A2FB70700933ED8;
+						TestTargetID = CE7419EC2A2F18F400D84E0C;
 					};
 				};
 			};
-			buildConfigurationList = CE3D804F2A2FB70700933ED8 /* Build configuration list for PBXProject "PaymentApp-CIBL-Task" */;
+			buildConfigurationList = CE7419E82A2F18F400D84E0C /* Build configuration list for PBXProject "PaymentApp-CIBL-Task" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,37 +286,39 @@
 				en,
 				Base,
 			);
-			mainGroup = CE3D804B2A2FB70700933ED8;
-			productRefGroup = CE3D80552A2FB70700933ED8 /* Products */;
+			mainGroup = CE7419E42A2F18F400D84E0C;
+			productRefGroup = CE7419EE2A2F18F400D84E0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE3D80532A2FB70700933ED8 /* PaymentApp-CIBL-Task */,
-				CE3D806C2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests */,
-				CE3D80762A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests */,
+				CE7419EC2A2F18F400D84E0C /* PaymentApp-CIBL-Task */,
+				CE741A052A2F18F800D84E0C /* PaymentApp-CIBL-TaskTests */,
+				CE741A0F2A2F18F800D84E0C /* PaymentApp-CIBL-TaskUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE3D80522A2FB70700933ED8 /* Resources */ = {
+		CE7419EB2A2F18F400D84E0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3D80672A2FB70900933ED8 /* LaunchScreen.storyboard in Resources */,
-				CE3D80642A2FB70900933ED8 /* Assets.xcassets in Resources */,
-				CE3D805F2A2FB70700933ED8 /* Main.storyboard in Resources */,
+				CEA441A42A2F4AAC008FFEEE /* PaymentReceptViewController.xib in Resources */,
+				CE741A002A2F18F700D84E0C /* LaunchScreen.storyboard in Resources */,
+				CE7419FD2A2F18F700D84E0C /* Assets.xcassets in Resources */,
+				CE7419F82A2F18F400D84E0C /* Main.storyboard in Resources */,
+				CE741A292A2F237800D84E0C /* Payment.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3D806B2A2FB70A00933ED8 /* Resources */ = {
+		CE741A042A2F18F800D84E0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3D80752A2FB70A00933ED8 /* Resources */ = {
+		CE741A0E2A2F18F800D84E0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,62 +328,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE3D80502A2FB70700933ED8 /* Sources */ = {
+		CE7419E92A2F18F400D84E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3D805C2A2FB70700933ED8 /* ViewController.swift in Sources */,
-				CE3D80622A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld in Sources */,
-				CE3D80582A2FB70700933ED8 /* AppDelegate.swift in Sources */,
-				CE3D805A2A2FB70700933ED8 /* SceneDelegate.swift in Sources */,
+				CEA441A62A2F8316008FFEEE /* Extension.swift in Sources */,
+				CE7419F52A2F18F400D84E0C /* ViewController.swift in Sources */,
+				CEA4419F2A2F3A28008FFEEE /* PDFGenerator.swift in Sources */,
+				CEA4419C2A2F3833008FFEEE /* PaymentInfo.swift in Sources */,
+				CE7419FB2A2F18F400D84E0C /* PaymentApp_CIBL_Task.xcdatamodeld in Sources */,
+				CEA441A32A2F4AAC008FFEEE /* PaymentReceiptViewController.swift in Sources */,
+				CE741A2B2A2F238E00D84E0C /* PaymentViewController.swift in Sources */,
+				CE7419F12A2F18F400D84E0C /* AppDelegate.swift in Sources */,
+				CE7419F32A2F18F400D84E0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3D80692A2FB70A00933ED8 /* Sources */ = {
+		CE741A022A2F18F800D84E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3D80722A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift in Sources */,
+				CE741A0B2A2F18F800D84E0C /* PaymentApp_CIBL_TaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3D80732A2FB70A00933ED8 /* Sources */ = {
+		CE741A0C2A2F18F800D84E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3D807E2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift in Sources */,
-				CE3D807C2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift in Sources */,
+				CE741A172A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift in Sources */,
+				CE741A152A2F18F800D84E0C /* PaymentApp_CIBL_TaskUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE3D806F2A2FB70A00933ED8 /* PBXTargetDependency */ = {
+		CE741A082A2F18F800D84E0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE3D80532A2FB70700933ED8 /* PaymentApp-CIBL-Task */;
-			targetProxy = CE3D806E2A2FB70A00933ED8 /* PBXContainerItemProxy */;
+			target = CE7419EC2A2F18F400D84E0C /* PaymentApp-CIBL-Task */;
+			targetProxy = CE741A072A2F18F800D84E0C /* PBXContainerItemProxy */;
 		};
-		CE3D80792A2FB70A00933ED8 /* PBXTargetDependency */ = {
+		CE741A122A2F18F800D84E0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE3D80532A2FB70700933ED8 /* PaymentApp-CIBL-Task */;
-			targetProxy = CE3D80782A2FB70A00933ED8 /* PBXContainerItemProxy */;
+			target = CE7419EC2A2F18F400D84E0C /* PaymentApp-CIBL-Task */;
+			targetProxy = CE741A112A2F18F800D84E0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE3D805D2A2FB70700933ED8 /* Main.storyboard */ = {
+		CE7419F62A2F18F400D84E0C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE3D805E2A2FB70700933ED8 /* Base */,
+				CE7419F72A2F18F400D84E0C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CE3D80652A2FB70900933ED8 /* LaunchScreen.storyboard */ = {
+		CE7419FE2A2F18F700D84E0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE3D80662A2FB70900933ED8 /* Base */,
+				CE7419FF2A2F18F700D84E0C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +396,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CE3D807F2A2FB70A00933ED8 /* Debug */ = {
+		CE741A182A2F18F800D84E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +456,7 @@
 			};
 			name = Debug;
 		};
-		CE3D80802A2FB70A00933ED8 /* Release */ = {
+		CE741A192A2F18F800D84E0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,7 +510,7 @@
 			};
 			name = Release;
 		};
-		CE3D80822A2FB70A00933ED8 /* Debug */ = {
+		CE741A1B2A2F18F800D84E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -462,7 +538,7 @@
 			};
 			name = Debug;
 		};
-		CE3D80832A2FB70A00933ED8 /* Release */ = {
+		CE741A1C2A2F18F800D84E0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -490,7 +566,7 @@
 			};
 			name = Release;
 		};
-		CE3D80852A2FB70A00933ED8 /* Debug */ = {
+		CE741A1E2A2F18F800D84E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +586,7 @@
 			};
 			name = Debug;
 		};
-		CE3D80862A2FB70A00933ED8 /* Release */ = {
+		CE741A1F2A2F18F800D84E0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,7 +606,7 @@
 			};
 			name = Release;
 		};
-		CE3D80882A2FB70A00933ED8 /* Debug */ = {
+		CE741A212A2F18F800D84E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -548,7 +624,7 @@
 			};
 			name = Debug;
 		};
-		CE3D80892A2FB70A00933ED8 /* Release */ = {
+		CE741A222A2F18F800D84E0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -569,38 +645,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE3D804F2A2FB70700933ED8 /* Build configuration list for PBXProject "PaymentApp-CIBL-Task" */ = {
+		CE7419E82A2F18F400D84E0C /* Build configuration list for PBXProject "PaymentApp-CIBL-Task" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE3D807F2A2FB70A00933ED8 /* Debug */,
-				CE3D80802A2FB70A00933ED8 /* Release */,
+				CE741A182A2F18F800D84E0C /* Debug */,
+				CE741A192A2F18F800D84E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE3D80812A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-Task" */ = {
+		CE741A1A2A2F18F800D84E0C /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-Task" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE3D80822A2FB70A00933ED8 /* Debug */,
-				CE3D80832A2FB70A00933ED8 /* Release */,
+				CE741A1B2A2F18F800D84E0C /* Debug */,
+				CE741A1C2A2F18F800D84E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE3D80842A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskTests" */ = {
+		CE741A1D2A2F18F800D84E0C /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE3D80852A2FB70A00933ED8 /* Debug */,
-				CE3D80862A2FB70A00933ED8 /* Release */,
+				CE741A1E2A2F18F800D84E0C /* Debug */,
+				CE741A1F2A2F18F800D84E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE3D80872A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskUITests" */ = {
+		CE741A202A2F18F800D84E0C /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE3D80882A2FB70A00933ED8 /* Debug */,
-				CE3D80892A2FB70A00933ED8 /* Release */,
+				CE741A212A2F18F800D84E0C /* Debug */,
+				CE741A222A2F18F800D84E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -608,17 +684,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CE3D80602A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld */ = {
+		CE7419F92A2F18F400D84E0C /* PaymentApp_CIBL_Task.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CE3D80612A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodel */,
+				CE7419FA2A2F18F400D84E0C /* PaymentApp_CIBL_Task.xcdatamodel */,
 			);
-			currentVersion = CE3D80612A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodel */;
+			currentVersion = CE7419FA2A2F18F400D84E0C /* PaymentApp_CIBL_Task.xcdatamodel */;
 			path = PaymentApp_CIBL_Task.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = CE3D804C2A2FB70700933ED8 /* Project object */;
+	rootObject = CE7419E52A2F18F400D84E0C /* Project object */;
 }

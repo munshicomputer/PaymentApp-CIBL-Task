@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  PaymentApp-CIBL-Task
 //
-//  Created by Md Hosne Mobarok on 7/6/23.
+//  Created by Md Hosne Mobarok on 6/6/23.
 //
 
 import UIKit

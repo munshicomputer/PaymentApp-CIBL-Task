@@ -1,24 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D3c-qQ-9H7">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PaymentApp_CIBL_Task" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wlf-9T-pCB" userLabel="NavView">
+                                <rect key="frame" x="0.0" y="47" width="430" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay Bill Dashboard " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roS-Ya-BpT">
+                                        <rect key="frame" x="134.66666666666669" y="9.3333333333333375" width="160.66666666666669" height="21.666666666666671"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="roS-Ya-BpT" firstAttribute="centerY" secondItem="Wlf-9T-pCB" secondAttribute="centerY" id="8Bz-ui-ZIf"/>
+                                    <constraint firstItem="roS-Ya-BpT" firstAttribute="centerX" secondItem="Wlf-9T-pCB" secondAttribute="centerX" id="dCU-La-9CP"/>
+                                    <constraint firstAttribute="height" constant="40" id="ru0-6O-pg5"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fbA-rq-maq">
+                                <rect key="frame" x="16" y="406" width="398" height="120"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XMn-Ue-8Kh">
+                                        <rect key="frame" x="0.0" y="0.0" width="199" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljC-Ab-iqy">
+                                                <rect key="frame" x="16" y="16" width="167" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="P4A-QN-sGM"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="bkash_money_send_icon"/>
+                                                <connections>
+                                                    <action selector="payWithBkashButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SML-qU-qlK"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay With bKash" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWh-uV-S0h">
+                                                <rect key="frame" x="0.0" y="96" width="199" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ljC-Ab-iqy" secondAttribute="trailing" constant="16" id="9EW-Go-f2O"/>
+                                            <constraint firstItem="ljC-Ab-iqy" firstAttribute="top" secondItem="XMn-Ue-8Kh" secondAttribute="top" constant="16" id="UvX-UN-rOV"/>
+                                            <constraint firstItem="aWh-uV-S0h" firstAttribute="top" secondItem="ljC-Ab-iqy" secondAttribute="bottom" id="YE1-xI-RWc"/>
+                                            <constraint firstItem="ljC-Ab-iqy" firstAttribute="leading" secondItem="XMn-Ue-8Kh" secondAttribute="leading" constant="16" id="ZMS-bd-hqh"/>
+                                            <constraint firstAttribute="trailing" secondItem="aWh-uV-S0h" secondAttribute="trailing" id="nd8-0z-uEq"/>
+                                            <constraint firstItem="aWh-uV-S0h" firstAttribute="leading" secondItem="XMn-Ue-8Kh" secondAttribute="leading" id="xiB-vt-RAk"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8C-2U-aJm">
+                                        <rect key="frame" x="199" y="0.0" width="199" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxY-b0-sYS">
+                                                <rect key="frame" x="16" y="16" width="167" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="NDn-Yp-PZT"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="ic_nagad"/>
+                                                <connections>
+                                                    <action selector="payWithNagadButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b0p-zt-WlY"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay With Nagad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5f8-fN-sJS">
+                                                <rect key="frame" x="0.0" y="96" width="199" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="fxY-b0-sYS" firstAttribute="leading" secondItem="a8C-2U-aJm" secondAttribute="leading" constant="16" id="7o5-p5-x7l"/>
+                                            <constraint firstItem="fxY-b0-sYS" firstAttribute="top" secondItem="a8C-2U-aJm" secondAttribute="top" constant="16" id="93G-k7-uH6"/>
+                                            <constraint firstAttribute="trailing" secondItem="fxY-b0-sYS" secondAttribute="trailing" constant="16" id="Kle-Fa-Als"/>
+                                            <constraint firstAttribute="trailing" secondItem="5f8-fN-sJS" secondAttribute="trailing" id="XKQ-nC-mzF"/>
+                                            <constraint firstItem="5f8-fN-sJS" firstAttribute="leading" secondItem="a8C-2U-aJm" secondAttribute="leading" id="hq0-9n-2Jq"/>
+                                            <constraint firstItem="5f8-fN-sJS" firstAttribute="top" secondItem="fxY-b0-sYS" secondAttribute="bottom" id="xow-2p-BIK"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="lvZ-OI-wOl"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Wlf-9T-pCB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7MD-VB-Pjb"/>
+                            <constraint firstItem="Wlf-9T-pCB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Avw-pz-cMZ"/>
+                            <constraint firstAttribute="trailing" secondItem="fbA-rq-maq" secondAttribute="trailing" constant="16" id="IzF-xR-Wnh"/>
+                            <constraint firstItem="Wlf-9T-pCB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="47" id="ZhU-bT-LFR"/>
+                            <constraint firstItem="fbA-rq-maq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cow-SJ-SfX"/>
+                            <constraint firstItem="fbA-rq-maq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pIo-fF-TGK"/>
+                            <constraint firstItem="fbA-rq-maq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wIu-Jx-qei"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="8gB-tb-FXO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1038.1395348837209" y="3.218884120171674"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="99c-GL-6c4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="D3c-qQ-9H7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ca9-5F-WxQ">
+                        <rect key="frame" x="0.0" y="59" width="430" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vPU-3K-t7b"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lI2-Gr-emH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.53488372093022" y="3.218884120171674"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bkash_money_send_icon" width="400" height="178"/>
+        <image name="ic_nagad" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
