@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3D80582A2FB70700933ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D80572A2FB70700933ED8 /* AppDelegate.swift */; };
+		CE3D805A2A2FB70700933ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D80592A2FB70700933ED8 /* SceneDelegate.swift */; };
+		CE3D805C2A2FB70700933ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D805B2A2FB70700933ED8 /* ViewController.swift */; };
+		CE3D805F2A2FB70700933ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3D805D2A2FB70700933ED8 /* Main.storyboard */; };
+		CE3D80622A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE3D80602A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld */; };
+		CE3D80642A2FB70900933ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3D80632A2FB70900933ED8 /* Assets.xcassets */; };
+		CE3D80672A2FB70900933ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3D80652A2FB70900933ED8 /* LaunchScreen.storyboard */; };
+		CE3D80722A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D80712A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift */; };
+		CE3D807C2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D807B2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift */; };
+		CE3D807E2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D807D2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE3D806E2A2FB70A00933ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3D804C2A2FB70700933ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3D80532A2FB70700933ED8;
+			remoteInfo = "PaymentApp-CIBL-Task";
+		};
+		CE3D80782A2FB70A00933ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3D804C2A2FB70700933ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3D80532A2FB70700933ED8;
+			remoteInfo = "PaymentApp-CIBL-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE3D80542A2FB70700933ED8 /* PaymentApp-CIBL-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PaymentApp-CIBL-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3D80572A2FB70700933ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE3D80592A2FB70700933ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE3D805B2A2FB70700933ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE3D805E2A2FB70700933ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE3D80612A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaymentApp_CIBL_Task.xcdatamodel; sourceTree = "<group>"; };
+		CE3D80632A2FB70900933ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE3D80662A2FB70900933ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE3D80682A2FB70900933ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3D806D2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PaymentApp-CIBL-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3D80712A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentApp_CIBL_TaskTests.swift; sourceTree = "<group>"; };
+		CE3D80772A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PaymentApp-CIBL-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3D807B2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentApp_CIBL_TaskUITests.swift; sourceTree = "<group>"; };
+		CE3D807D2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentApp_CIBL_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3D80512A2FB70700933ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3D806A2A2FB70A00933ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3D80742A2FB70A00933ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3D804B2A2FB70700933ED8 = {
+			isa = PBXGroup;
+			children = (
+				CE3D80562A2FB70700933ED8 /* PaymentApp-CIBL-Task */,
+				CE3D80702A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests */,
+				CE3D807A2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests */,
+				CE3D80552A2FB70700933ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3D80552A2FB70700933ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3D80542A2FB70700933ED8 /* PaymentApp-CIBL-Task.app */,
+				CE3D806D2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests.xctest */,
+				CE3D80772A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3D80562A2FB70700933ED8 /* PaymentApp-CIBL-Task */ = {
+			isa = PBXGroup;
+			children = (
+				CE3D80572A2FB70700933ED8 /* AppDelegate.swift */,
+				CE3D80592A2FB70700933ED8 /* SceneDelegate.swift */,
+				CE3D805B2A2FB70700933ED8 /* ViewController.swift */,
+				CE3D805D2A2FB70700933ED8 /* Main.storyboard */,
+				CE3D80632A2FB70900933ED8 /* Assets.xcassets */,
+				CE3D80652A2FB70900933ED8 /* LaunchScreen.storyboard */,
+				CE3D80682A2FB70900933ED8 /* Info.plist */,
+				CE3D80602A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld */,
+			);
+			path = "PaymentApp-CIBL-Task";
+			sourceTree = "<group>";
+		};
+		CE3D80702A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3D80712A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift */,
+			);
+			path = "PaymentApp-CIBL-TaskTests";
+			sourceTree = "<group>";
+		};
+		CE3D807A2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3D807B2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift */,
+				CE3D807D2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift */,
+			);
+			path = "PaymentApp-CIBL-TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3D80532A2FB70700933ED8 /* PaymentApp-CIBL-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3D80812A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-Task" */;
+			buildPhases = (
+				CE3D80502A2FB70700933ED8 /* Sources */,
+				CE3D80512A2FB70700933ED8 /* Frameworks */,
+				CE3D80522A2FB70700933ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PaymentApp-CIBL-Task";
+			productName = "PaymentApp-CIBL-Task";
+			productReference = CE3D80542A2FB70700933ED8 /* PaymentApp-CIBL-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE3D806C2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3D80842A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskTests" */;
+			buildPhases = (
+				CE3D80692A2FB70A00933ED8 /* Sources */,
+				CE3D806A2A2FB70A00933ED8 /* Frameworks */,
+				CE3D806B2A2FB70A00933ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3D806F2A2FB70A00933ED8 /* PBXTargetDependency */,
+			);
+			name = "PaymentApp-CIBL-TaskTests";
+			productName = "PaymentApp-CIBL-TaskTests";
+			productReference = CE3D806D2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE3D80762A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3D80872A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskUITests" */;
+			buildPhases = (
+				CE3D80732A2FB70A00933ED8 /* Sources */,
+				CE3D80742A2FB70A00933ED8 /* Frameworks */,
+				CE3D80752A2FB70A00933ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3D80792A2FB70A00933ED8 /* PBXTargetDependency */,
+			);
+			name = "PaymentApp-CIBL-TaskUITests";
+			productName = "PaymentApp-CIBL-TaskUITests";
+			productReference = CE3D80772A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3D804C2A2FB70700933ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CE3D80532A2FB70700933ED8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CE3D806C2A2FB70A00933ED8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE3D80532A2FB70700933ED8;
+					};
+					CE3D80762A2FB70A00933ED8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE3D80532A2FB70700933ED8;
+					};
+				};
+			};
+			buildConfigurationList = CE3D804F2A2FB70700933ED8 /* Build configuration list for PBXProject "PaymentApp-CIBL-Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3D804B2A2FB70700933ED8;
+			productRefGroup = CE3D80552A2FB70700933ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3D80532A2FB70700933ED8 /* PaymentApp-CIBL-Task */,
+				CE3D806C2A2FB70A00933ED8 /* PaymentApp-CIBL-TaskTests */,
+				CE3D80762A2FB70A00933ED8 /* PaymentApp-CIBL-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3D80522A2FB70700933ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3D80672A2FB70900933ED8 /* LaunchScreen.storyboard in Resources */,
+				CE3D80642A2FB70900933ED8 /* Assets.xcassets in Resources */,
+				CE3D805F2A2FB70700933ED8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3D806B2A2FB70A00933ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3D80752A2FB70A00933ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3D80502A2FB70700933ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3D805C2A2FB70700933ED8 /* ViewController.swift in Sources */,
+				CE3D80622A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld in Sources */,
+				CE3D80582A2FB70700933ED8 /* AppDelegate.swift in Sources */,
+				CE3D805A2A2FB70700933ED8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3D80692A2FB70A00933ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3D80722A2FB70A00933ED8 /* PaymentApp_CIBL_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3D80732A2FB70A00933ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3D807E2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITestsLaunchTests.swift in Sources */,
+				CE3D807C2A2FB70A00933ED8 /* PaymentApp_CIBL_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE3D806F2A2FB70A00933ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3D80532A2FB70700933ED8 /* PaymentApp-CIBL-Task */;
+			targetProxy = CE3D806E2A2FB70A00933ED8 /* PBXContainerItemProxy */;
+		};
+		CE3D80792A2FB70A00933ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3D80532A2FB70700933ED8 /* PaymentApp-CIBL-Task */;
+			targetProxy = CE3D80782A2FB70A00933ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE3D805D2A2FB70700933ED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3D805E2A2FB70700933ED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE3D80652A2FB70900933ED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3D80662A2FB70900933ED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3D807F2A2FB70A00933ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE3D80802A2FB70A00933ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3D80822A2FB70A00933ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G92SD6SVX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PaymentApp-CIBL-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arif.PaymentApp-CIBL-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3D80832A2FB70A00933ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G92SD6SVX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PaymentApp-CIBL-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arif.PaymentApp-CIBL-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE3D80852A2FB70A00933ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G92SD6SVX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arif.PaymentApp-CIBL-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentApp-CIBL-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaymentApp-CIBL-Task";
+			};
+			name = Debug;
+		};
+		CE3D80862A2FB70A00933ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G92SD6SVX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arif.PaymentApp-CIBL-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentApp-CIBL-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaymentApp-CIBL-Task";
+			};
+			name = Release;
+		};
+		CE3D80882A2FB70A00933ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G92SD6SVX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arif.PaymentApp-CIBL-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PaymentApp-CIBL-Task";
+			};
+			name = Debug;
+		};
+		CE3D80892A2FB70A00933ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G92SD6SVX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arif.PaymentApp-CIBL-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PaymentApp-CIBL-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3D804F2A2FB70700933ED8 /* Build configuration list for PBXProject "PaymentApp-CIBL-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3D807F2A2FB70A00933ED8 /* Debug */,
+				CE3D80802A2FB70A00933ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3D80812A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3D80822A2FB70A00933ED8 /* Debug */,
+				CE3D80832A2FB70A00933ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3D80842A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3D80852A2FB70A00933ED8 /* Debug */,
+				CE3D80862A2FB70A00933ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3D80872A2FB70A00933ED8 /* Build configuration list for PBXNativeTarget "PaymentApp-CIBL-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3D80882A2FB70A00933ED8 /* Debug */,
+				CE3D80892A2FB70A00933ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE3D80602A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE3D80612A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodel */,
+			);
+			currentVersion = CE3D80612A2FB70700933ED8 /* PaymentApp_CIBL_Task.xcdatamodel */;
+			path = PaymentApp_CIBL_Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE3D804C2A2FB70700933ED8 /* Project object */;
+}
